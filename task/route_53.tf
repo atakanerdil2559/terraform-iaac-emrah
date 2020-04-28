@@ -1,4 +1,4 @@
-resource "aws_route53_record" "kenvpt" {
+resource "aws_route53_record" "seckinemrah" {
   zone_id = "${var.delegation_set}"
   name    = "${var.domain_name}"
   type    = "A"
