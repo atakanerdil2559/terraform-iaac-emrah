@@ -2,5 +2,5 @@
 sudo yum install httpd -y
 sudo systemctl start httpd
 sudo systemctl enable httpd
-sudo echo "TERRAFORM IS FUN!" > /var/www/html/index.html
+sudo echo "Life is good..." > /var/www/html/index.html
 sudo systemctl restart httpd

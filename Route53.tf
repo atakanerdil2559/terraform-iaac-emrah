@@ -1,5 +1,5 @@
 # resource "aws_route53_zone" "main" {
-#   name = "kenvpt.com"
+#   name = "seckinemrah.com"
 #   delegation_set_id = "${data.aws_route53_delegation_set.dset}"
 # }
 resource "aws_route53_record" "seckinemrah" {
